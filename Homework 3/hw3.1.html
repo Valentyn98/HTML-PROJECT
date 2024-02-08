@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    .flex{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    body{
+      margin: 0;
+    }
+    header{
+      height: 25vh;
+      background-color: brown;
+    }
+    main{
+      display: flex;
+    }
+    .a,.c{
+      width: 30vw;
+      height: 50vh;
+      background-color: aqua;
+    }
+    .b{
+      width: 60vw;
+      height: 50vh;
+      background-color: greenyellow;
+    }
+    footer{
+      height: 25vh;
+      background-color: brown;
+    }
+
+  </style>
+</head>
+<body>
+ <header class="flex"><span>Header</span></header>
+   <main>
+     <section class="a flex"><span>News</span></section>
+     <section class="b flex"><span>Conent</span></section>
+     <section class="c flex"><span>Spam</span></section>
+   </main>
+ <footer class="flex"><span>Footer</span></footer>
+</body>
+</html>
