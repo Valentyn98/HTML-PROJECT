@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    *{
+      margin: 0;
+    }
+    .a{
+      width: 100vw;
+      height: 33vh;
+      background-color: #8A8484;
+    }
+    .b{
+      width: 67vw;
+      height: 33.33vh;
+      background-color: #5E5050;
+    }
+    .c{
+      width: 22.33vw;
+      height: 33.40vh;
+      background-color: #927D7D;
+    }
+    .d{
+      width: 22.33vw;
+      height: 33.40vh;
+      background-color: pink;
+    }
+    .e{
+      width: 22.33vw;
+      height: 33.40vh;
+      background-color: #000000;
+    }
+    .f{
+      height: 67vh;
+      width: 33.33vw;
+      background-color: #A74848;
+    }
+    section{
+      display: flex;
+      flex-direction: column;
+    }
+    .bcdef{
+      display: flex;
+    }
+    .cde{
+      display: flex;
+    }
+    .bcde{
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 800px) {
+    .bcdef{
+      flex-direction: column;
+    }
+      .a{
+        width: 100vw;
+        height: 22.33vh;
+        background-color: #8A8484;
+      }
+      .f{
+        width: 100vw;
+        height: 22.33vh;
+        background-color: #A74848;
+      }
+      .b {
+        width: 100vw;
+        height: 33vh;
+        background-color: #5E5050;
+      }
+      .c{
+        width: 33.33vw;
+        height: 22.33vh;
+        background-color: #927D7D;
+      }
+      .d{
+        width: 33.33vw;
+        height: 22.33vh;
+        background-color: pink;
+      }
+      .e {
+        width: 33.33vw;
+        height: 22.33vh;
+        background-color: #000000;
+      }
+    }
+  </style>
+</head>
+<body>
+    <section>
+      <div class="a"></div>
+      <div class="bcdef">
+        <div class="bcde">
+          <div class="b"></div>
+          <div class="cde">
+            <div class="c"></div>
+            <div class="d"></div>
+            <div class="e"></div>
+          </div>
+        </div>
+        <div class="f"></div>
+      </div>
+    </section>
+</body>
+</html>
