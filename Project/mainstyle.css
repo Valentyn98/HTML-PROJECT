@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color:#19191B;
+}
+.maindiv{
+    margin: 5vh 6vw;
+    height: 450vh;
+    position: relative;
+}
+.bgimage{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.buts{
+    width: 65vw;
+    justify-content:space-between;
+    font-weight: 400;
+    font-style: normal;
+}
+.clickbutton>span{
+    margin: 0 20px;
+}
+.clickbutton>span:hover{
+    color:rebeccapurple;
+}
+.logo{
+    width: 40vw;
+    justify-content: flex-start;
+}
+.logoone{
+    height: 40px;
+    margin-right: 5px;
+}
+.buttoncontact{
+    border: 2px solid white;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
+    width: 150px;
+    color: white;
+}
+.mainTop{
+    display: flex;
+    justify-content: space-between;
+}
+.mainTop>div>img{
+    width: 40vw;
+}
+.mainTopInfo>div{
+    height: auto;
+    margin: 5vh 0;
+}
+.mainTopInfo{
+    width: 30vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-weight: 250;
+    font-style: normal;
+}
+.buttonMainTopInfo{
+    outline: none;
+    background-color: #5454D4;
+    width: 140px;
+    height: 40px;
+}
+h1{
+    font-size: 80px;
+    font-weight: 400;
+    font-style: normal;
+}
+.sectionTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 17vh 0;
+    z-index: 1;
+}
+.textSectionTwo{
+    display: flex;
+    margin: 14vh 0;
+}
+.textSectionTwo>div>h3{
+    /*text-align: center;*/
+    font-size: 60px;
+}
+.textSectionTwo>div>p{
+    font-size: 21px;
+    padding: 10px;
+}
+h3{
+    width: 45vw;
+    font-size: 60px;
+    font-weight: 400;
+}
+.sectionTwo>img{
+    width: 80%;
+    height: 70%;
+
+}
+.texSectionTwo>div{
+    margin-top: 15vh;
+    height: 25vh;
+}
+.sectionThree{
+    flex-direction: column;
+    justify-content: center;
+}
+.sectionThree>div>h3{
+    text-align: center;
+}
+.sectionThreeFatherOne{
+    height: 50vh;
+}
+.blockWithInfoSectionThree{
+    width: 30%;
+    height: 10%;
+    flex-direction: column;
+    text-align: center;
+    margin: 10vh 4vw;
+}
+.blockWithInfoSectionThree>img{
+    width: 70px;
+    height: 70px;
+}
+.blockWithInfoSectionThree>div>b{
+    font-size: 28px;
+}
+.blockWithInfoSectionThree>div>p{
+    font-size: 20px;
+}
+.blockWithInfoSectionThree>div{
+    margin: 2vh 0;
+}
+.sectionFour{
+    margin-top: 5vh;
+    height: 115vh;
+}
+h4{
+    font-size: 58px;
+    font-weight: 400;
+}
+.sectionFourBlockImages{
+    justify-content: space-between;
+}
+.sectionFourBlockImages>div{
+    width: 60vh;
+    height: 20vw;
+    background-color: #1E1E20;
+    border-radius: 20px;
+    margin: 20vh 0;
+    position: relative;
+}
+.sectionFourBlockImages>div>img{
+    position: absolute;
+    width: 52vh;
+    height: 16vw;
+    top: 10%;
+    left: 6%;
+}
+.sectionFive{
+    height: 70vh;
+    width: 100%;
+}
+.sectionFiveBlock{
+    width: 100%;
+    height: 100%;
+    background-color: #1E1E20;
+    position: relative;
+}
+.sectionFiveBlock>div{
+    margin: 22vh 6vw;
+    justify-content: space-between;
+}
+.buttonSectionFive{
+    outline: none;
+    background-color: #5454D4;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+h5{
+    width: 70%;
+    font-size: 60px;
+    font-weight: 400;
+}
+.footer{
+    margin: 0 6vw;
+    height: 20vh;
+}
+.foo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile{
+    display: none;
+}

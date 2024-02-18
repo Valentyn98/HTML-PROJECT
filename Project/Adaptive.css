@@ -1,0 +1,237 @@
+@media (min-width: 300px) and (max-width: 600px) {
+
+*{
+    margin: 0;
+    border: none;
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+body{
+    background-color:#19191B;
+}
+.maindiv{
+    height: 530vh;
+    position: relative;
+}
+.bgimage{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    z-index: -1;
+}
+.buts{
+    display: none;
+}
+.clickbutton>span{
+    margin: 0 20px;
+}
+.clickbutton>span:hover{
+    color: #5454D4;
+}
+.logo{
+    width:99vw;
+    /*justify-content: flex-start;*/
+}
+.logoone{
+    height: 40px;
+    margin-right: 5px;
+}
+.sectionOne{
+    height: 20vh;
+}
+.mainTop{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.mainTop>div>img{
+    width: 80vw;
+}
+.mainTopInfo{
+    width: 85vw;
+    height: 70vh;
+    font-weight: 250;
+    font-style: normal;
+}
+.buttonMainTopInfo{
+    outline: none;
+    background-color: #5454D4;
+    width: 140px;
+    height: 40px;
+}
+h1{
+    font-size: 42px;
+    font-weight: 400;
+    font-style: normal;
+    width: 60%;
+}
+/**********************sectionTWO***********************/
+.sectionTwo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 50vh;
+    margin: 140vh 0 0 0;
+    z-index: 1;
+}
+.textSectionTwo{
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    /*margin: 100vh 0;*/
+}
+.textSectionTwo>div:nth-child(odd){
+    margin: 2vh 0;
+}
+.textSectionTwo>div>h3{
+    font-size: 36px;
+}
+.textSectionTwo>div>p{
+    font-size: 16px;
+    padding: 0;
+}
+h3{
+    width: 90vw;
+    font-size: 26px;
+    font-weight: 400;
+    justify-content: flex-start;
+}
+.sectionTwo>img{
+    width: 85vw;
+    height: 38vh;
+}
+    /**********************sectionTHREE***********************/
+.sectionThree{
+    margin-top: 20vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.sectionThree>div>h3{
+    text-align: start;
+    margin-top: 10vh;
+    font-size: 36px;
+}
+    .sectionThree>div{
+    width: 85vw;
+    }
+.sectionThreeFatherOne{
+    margin-top: 10vh;
+    height: 85vh;
+    flex-direction: column;
+}
+.sectionThreeFatherTwo{
+    height: 85vh;
+    flex-direction: column;
+}
+.blockWithInfoSectionThree{
+    width: 55%;
+    height: 10%;
+    flex-direction: column;
+    text-align: center;
+}
+.blockWithInfoSectionThree>img{
+    width: 50px;
+    height: 50px;
+}
+.blockWithInfoSectionThree>div>b{
+    font-size: 24px;
+}
+.blockWithInfoSectionThree>div>p{
+    font-size: 16px;
+}
+.blockWithInfoSectionThree>div{
+    margin: 2vh 0;
+}
+
+    /**********************sectionFOUR***********************/
+.sectionFour{
+    height: 50vh;
+}
+h4{
+    font-size: 58px;
+}
+.sectionFourBlockImages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    height: 60vh;
+}
+.sectionFourBlockImages>div{
+    height: 50vh;
+}
+    .sectionFourBlockImages>div>img{
+        height: 40vh;
+        width: 65vw;
+    }
+.sectionFourBlockImages>div:nth-child(1n+2){
+    display: none;
+}
+.sectionFourBlockImages>div>img:nth-child(1n+2){
+    display: none;
+}
+    /**********************sectionFIVE***********************/
+.sectionFive{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.sectionFiveBlock{
+    width: 100vw;
+    height: 70vh;
+    background-color: #1E1E20;
+    position: relative;
+}
+.sectionFiveBlock>div{
+    margin: 22vh 6vw;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.buttonSectionFive{
+    outline: none;
+    background-color: #5454D4;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.logoTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sectionFiveBlockContact>div>h5{
+    margin-bottom: 2vh;
+}
+h5{
+    height: 100%;
+    width: 90%;
+    font-size: 36px;
+    font-weight: 400;
+}
+.foo{
+    margin-top: 35vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.foo>div{
+    margin-top: 2vh;
+}
+.foo>div>span:nth-child(even){
+    text-align: center;
+    margin:2vh;
+}
+    .mobile{
+        display: block;
+    }
+}
